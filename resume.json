@@ -1,4 +1,5 @@
-{
+{ 
+  "meta": { "theme": "classy" },
   "basics": {
     "name": "Guillaume Kuc",
     "label": "Technical Artist",
@@ -6,7 +7,7 @@
     "email": "guillaume@guillaumekuc.com",
     "phone": "",
     "url": "https://guillaumekuc.art",
-    "summary": "I'm a technical artist with expertise spanning 2D & 3D digital arts, music composition, and scripting & tools development. With formal education in 3D Animation from École Estienne in Paris, I've cultivated a multidisciplinary identity that reconciles my artistic aspirations with my analytical orientation. My experience includes creating interactive 3D maps, developing workflow automation tools, painting digital illustrations, and publishing educational content. Lately, I've focused on deepening my technical art skills in service of the French creative industries which I care for.",
+    "summary": "I'm a technical artist with proficiency spanning 2D & 3D digital arts, music composition, and scripting & tools development. With formal education in 3D Animation from École Estienne in Paris, I've cultivated a multidisciplinary identity that reconciles my artistic aspirations with my analytical orientation. My experience includes creating interactive 3D maps, developing workflow automation tools, painting digital illustrations, and publishing educational content. Lately, I've focused on deepening my technical art skills in service of the French creative industries which I care for.",
     "location": {
       "address": null,
       "postalCode": "38000",
