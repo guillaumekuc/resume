@@ -1,0 +1,332 @@
+{
+  "basics": {
+    "name": "Guillaume Kuc",
+    "label": "Technical Artist",
+    "image": "",
+    "email": "guillaume@guillaumekuc.com",
+    "phone": "",
+    "url": "https://guillaumekuc.art",
+    "summary": "I'm a technical artist with expertise spanning 2D & 3D digital arts, music composition, and scripting & tools development. With formal education in 3D Animation from École Estienne in Paris, I've cultivated a multidisciplinary identity that reconciles my artistic aspirations with my analytical orientation. My experience includes creating interactive 3D maps, developing workflow automation tools, painting digital illustrations, and publishing educational content. Lately, I've focused on deepening my technical art skills in service of the French creative industries which I care for.",
+    "location": {
+      "address": null,
+      "postalCode": "38000",
+      "city": "Grenoble",
+      "countryCode": "FR",
+      "region": "Isère"
+    },
+    "profiles": [
+      {
+        "network": "Bluesky",
+        "username": "guillaumekuc",
+        "url": "https://@guillaumekuc.bsky.social"
+      },
+      {
+        "network": "Github",
+        "username": "guillaumekuc",
+        "url": "https://github.com/guillaumekuc"
+      }, 
+      {
+        "network": "LinkedIn",
+        "username": "guillaumekuc",
+        "url": "https://www.linkedin.com/in/guillaumekuc/"
+      }, 
+      {
+        "network": "ArtStation",
+        "username": "guillaumekuc", 
+        "url": "https://www.artstation.com/guillaumekuc"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Visioglobe",
+      "position": "2D/3D Production Designer & Tools Developer",
+      "url": "https://visioglobe.com/",
+      "startDate": "2022-07-25",
+      "endDate": null,
+      "summary": "Created interactive 3D maps for clients in mall, office, hospital, and university sectors while developing automation tools to improve workflow efficiency.",
+      "highlights": [
+        "Created high-quality interactive 3D indoor maps for enterprise clients (Orange, Loréal, SG, Lombard Odier, Engie, Unibail, Ikea, etc...)",
+        "Developed and integrated workflow automation plugins that improved team efficiency",
+        "Utilized VisioMapEditor, Blender, AutoCAD, Illustrator, Figma, Vue.js, SVG, Paper.js"
+      ]
+    },
+    {
+      "company": "Self-Employed",
+      "position": "Illustrator",
+      "url": "",
+      "startDate": "2017",
+      "endDate": "2022",
+      "summary": "Created architectural, landscape and cover illustrations for tabletop RPG companies and novelists (intermittent).",
+      "highlights": [
+          "Worked with clients including La Plume de Cyrano and Orygins",
+          "Created colored illustrations for projects like Tylestel and Aegyptius",
+          "Received positive feedback for composition, color choices, and atmospheric quality"
+      ]
+    },
+    {
+      "company": "Various Retailers",
+      "position": "Various Retail Positions",
+      "url": "",
+      "startDate": "2018",
+      "endDate": "2021",
+      "summary": "Worked at multiple supermarket chains across France while maintaining self-directed learning projects.",
+      "highlights": [
+        "Managed cashier, shelving, accounting tasks, and store opening/closing responsibilities",
+        "Used free time blocks for portfolio development and personal projects",
+        "Maintained positive cash flow while building skills in digital art, 3D animation, and music theory",
+        "1.5 years of cumulated XP in Retail"
+      ]
+    },
+    {
+      "company": "Nuage Carré",
+      "position": "3D Animation Intern",
+      "url": "",
+      "startDate": "2017-02",
+      "endDate": "2017-04",
+      "summary": "Tasked with developing of a 3D promotional short film for a ceramics brand for a freelance graphic designer",
+      "highlights": [
+        "Produced pre-prod work, 3D models and animations for promotional content",
+        "Too short for intended scope"
+      ]
+    },
+    {
+      "company": "Kafard Films",
+      "position": "Graphic Design Intern",
+      "url": "",
+      "startDate": "2015-06",
+      "endDate": "2015-08",
+      "summary": "Created pre-production design materials for film projects in a small production company, supporting the pitching process for potential funding.",
+      "highlights": [
+        "Designed promotional booklets, and pitch materials for film project funding presentations",
+        "Designed logos and visual identity elements for production projects",
+        "Collaborated with multiple stakeholders to reach consensual design decisions"
+      ]
+    }
+  ],
+
+  "volunteer": null,
+  "education": [
+    {
+      "institution": "École Estienne",
+      "url": "https://www.ecole-estienne.paris/",
+      "area": "Digital Art & 3D Animation",
+      "studyType": "FCND (Non-Degree Supplementary Training)",
+      "startDate": "2016-09",
+      "endDate": "2017-07",
+      "score": "N/A",
+      "courses": [
+        "Professional Internship w/ Nuage Carré",
+        "Self-Directed Study in Digital Painting",
+        "Portfolio Development"
+      ]
+    },
+    {
+      "institution": "École Estienne",
+      "url": "https://www.ecole-estienne.paris/",
+      "area": "3D Animation",
+      "studyType": "DMA",
+      "startDate": "2014-09",
+      "endDate": "2016-07",
+      "score": "Mention Très Bien",
+      "courses": [
+        "Concept Development",
+        "Storyboarding",
+        "3D Modeling & Texturing",
+        "Character Rigging",
+        "Character Animation",
+        "Lighting & Rendering",
+        "Editing & Sound Design"
+      ]
+    },
+    {
+      "institution": "École Estienne",
+      "url": "https://www.ecole-estienne.paris/",
+      "area": "Applied Arts",
+      "studyType": "MANAA",
+      "startDate": "2013-09",
+      "endDate": "2014-07",
+      "score": "N/A",
+      "courses": [
+        "Drawing & Sketching",
+        "Volume & Space",
+        "Graphic Design Fundamentals",
+        "Typography Basics",
+        "Art History"
+      ]
+    },
+    {
+      "institution": "Lycée Camille Vernet",
+      "url": "",
+      "area": "Scientific Baccalaureate",
+      "studyType": "BAC S",
+      "startDate": "2008-09",
+      "endDate": "2013-07",
+      "score": "Mention Très Bien",
+      "courses": [
+        "Mathematics",
+        "Philosophy",
+        "Physics & Chemistry",
+        "Biology",
+        "Visual Arts",
+        "Music",
+        "Latin & Greek (Initial Years)"
+      ]
+    }
+  ],
+  "awards": [{
+    "title": null,
+    "date": null,
+    "awarder": null,
+    "summary": null
+  }],
+  "certificates": [{
+    "name": null,
+    "date": null,
+    "issuer": null,
+    "url": null
+  }],
+  "publications": [
+    {
+      "name": "Gridz - Perspective Plugin for Photoshop",
+      "publisher": "Gumroad",
+      "releaseDate": "2021",
+      "url": "https://guillaumekuc.gumroad.com/l/gridz",
+      "summary": "Developed a Photoshop plugin that helps artists create accurate perspective grids with customizable orientation in 3D space. Built with JavaScript, HTML/CSS, and Photoshop Extension SDK. Implemented trigonometric transformations for perspective calculation and created an intuitive UI for manipulating 3D space parameters.",
+      "highlights": [
+        "Developed using JavaScript, HTML/CSS, and Photoshop Extension SDK",
+        "Implemented bottom-up trigonometric transformations for accurate perspective calculation",
+        "Created intuitive UI for manipulating 3D space parameters",
+        "Published commercially on Gumroad"
+      ]
+    },
+    {
+      "name": "All-fourths Tuning, Improvisation - E-book",
+      "publisher": "Amazon Kindle",
+      "releaseDate": "2018",
+      "url": "https://www.amazon.com/All-fourths-tuning-Improvisation-Guillaume-ebook/dp/B07F89CW6V",
+      "summary": "Self-published educational e-book teaching guitarists how to use all-fourths tuning for enhanced improvisation. Created comprehensive diagrams explaining music theory concepts and developed a systematic approach to learning modes and scales in all-fourths tuning. Achieved 4.1 star average rating.",
+      "highlights": [
+        "Created comprehensive diagrams and explanations of music theory concepts",
+        "Developed systematic approach to learning modes and scales in all-fourths tuning",
+        "Published on Amazon Kindle with 4.1 star average rating"
+      ]
+    },
+    {
+      "name": "The Encyclopaedist - Animated Short Film",
+      "publisher": "Miyu Distribution (formerly Sève Films)",
+      "releaseDate": "2016",
+      "url": "",
+      "summary": "Created a 3-minute animated short film as diploma project at École Estienne. Handled all production stages including storyboarding, modeling, animation, lighting, and rendering. Collaborated with composer Pierre Fontaine for musical score. Selected for screening at multiple international film festivals."
+    }
+  ],
+  "skills": [
+    {
+      "name": "3D Graphics & Animation",
+      "level": null,
+      "keywords": [
+        "Modeling",
+        "Procedural Modeling [WIP]",
+        "UV Mapping & Texturing",
+        "Rigging",
+        "Character Animation",
+        "Lighting & Rendering",
+        "Blender",
+        "Maya",
+        "3DS Max",
+        "Mari", 
+        "Substance Painter"
+      ]
+    },
+    {
+      "name": "2D Visual Arts",
+      "level": null,
+      "keywords": [
+        "Digital Painting",
+        "Light & Color Theory",
+        "Perspective",
+        "Photoshop",
+        "Illustrator"
+      ]
+    },
+    {
+      "name": "Scripting & Development",
+      "level": null,
+      "keywords": [
+        "Web development",
+        "Plugin development",
+        "Javascript",
+        "HTML/CSS",
+        "UI/UX Design",
+        "API Integration",
+        "Adobe SDK", 
+        "Git", 
+        "Docker"
+      ]
+    },
+    {
+      "name": "Music Theory & Composition",
+      "level": null,
+      "keywords": [
+        "Chord Relationships",
+        "Counterpoint & Voice leading",
+        "Modal Theory",
+        "Metric Modulation",
+        "All-fourths Guitar",
+        "Reaper",
+        "Guitar Pro"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "French",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Full professional Proficiency"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Philosophy",
+      "keywords": [
+        "Pragmatic Idealism",
+        "Wu-wei",
+        "Dharma", 
+        "Karma"
+      ]
+    },
+    {
+      "name": "Physical Activity",
+      "keywords": [
+        "Cycling",
+        "Running",
+        "Intermittent Fasting",
+        "Nutrition"
+      ]
+    }
+  ],
+  "references": [{
+    "name": null,
+    "reference": null
+  }],
+  "projects": [
+    {
+    "name": "Technical Art Skills Development",
+    "startDate": "2025",
+    "endDate": "2026",
+    "description": "Self-directed gap year focused on enhancing technical art capabilities through specific skill development and personal projects.",
+    "highlights": [
+      "Procedural modeling in Houdini",
+      "Game engines: Unreal Engine/Unity",
+      "Python, C# and C++ scripting languages",
+      "Procedural texturing in Substance Designer",
+      "Shaders development",
+      "Custom tools development for Blender, Unreal, Maya"
+    ],
+    "url": "https://guillaumekuc.art/projects/tech-art-development"
+  }
+  ]
+}
