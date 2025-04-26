@@ -1,5 +1,9 @@
 **Live Resume**: https://guillaumekuc.github.io/resume
 
+## About
+
+Source of truth for my professional resume. Structured data source built on the [JSON Resume standard](https://jsonresume.org/). Content/Presentation decoupling. Fully customizable. Easy updates and version control through Git-based workflows. Full Data ownership and portability. 
+
 ## Setup
 
 - Clone repository
