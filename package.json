@@ -3,6 +3,6 @@
     "jsonresume-theme-classy": "^1.0.9"
   },
   "scripts": {
-    "build": "resume export docs/index.html --theme classy"
+    "build": "resume export --theme classy docs/index.html"
   }
 }
