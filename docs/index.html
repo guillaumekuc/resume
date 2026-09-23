@@ -1,353 +1,492 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!doctype html>
+    <html lang="en" style="">
+      <head>
+        <meta charset="utf-8" />
+        
     <title>Guillaume Kuc</title>
-    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans' rel='stylesheet' type='text/css'>
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-    <style>
-		body {
-			font-size: 62.5%;
-			font-family: Montserrat;
-			color: #333333;
-		}
-		.picture {
-			border-radius: 50%;
-			margin: 0 auto;
-		}
-		a {
-			color: #333333;
-			text-decoration: none;
-		}
-		a:visited {
-			color: #4e4e4e;
-		}
-		a:hover {
-			color: #4e4e4e;
-			text-decoration: underline;
-		}
-		
-		.header {
-			text-align:center;
-			font-size: 2em;
-			margin-top:1em;
-			margin-left:5%;
-			margin-right:5%;
-		}
-		h1 {
-			font-size:3em;
-			margin-bottom:0;
-		}
-		.profile {
-			font-family: Montserrat;
-			font-size: 1em;
-			margin:0;
-		}
+    <meta name="description" content="Versatile profile spanning 2D &amp; 3D digital arts, music composition, and software/tools development. Formally trained in 3D Animation from École Estienne, Paris. Professional experience includes delivering complex interactive 3D maps, developing creative tools, extensions and workflow automations, crafting 2D digital illustrations and concept arts, and publishing music educational material. Lately, I've been focusing on deepening my technical arts skills in service of the French creative industries." />
+  
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" />
+        <style>
+          :root{color-scheme:light dark;--color-background-light: #ffffff;--color-dimmed-light: #f3f4f5;--color-primary-light: #191e23;--color-secondary-light: #6c7781;--color-accent-light: #0073aa;--color-background-dark: #191e23;--color-dimmed-dark: #23282d;--color-primary-dark: #fbfbfc;--color-secondary-dark: #ccd0d4;--color-accent-dark: #00a0d2;--color-background: var(--color-background-light);--color-dimmed: var(--color-dimmed-light);--color-primary: var(--color-primary-light);--color-secondary: var(--color-secondary-light);--color-accent: var(--color-accent-light);--scale-ratio: 1.25;--scale0: 1rem;--scale1: calc(var(--scale0) * var(--scale-ratio));--scale2: calc(var(--scale1) * var(--scale-ratio));--scale3: calc(var(--scale2) * var(--scale-ratio));--scale4: calc(var(--scale3) * var(--scale-ratio));--scale5: calc(var(--scale4) * var(--scale-ratio))}@media (prefers-color-scheme: dark){:root{--color-background: var(--color-background-dark);--color-dimmed: var(--color-dimmed-dark);--color-primary: var(--color-primary-dark);--color-secondary: var(--color-secondary-dark);--color-accent: var(--color-accent-dark)}}*{box-sizing:border-box;margin:0;padding:0}html{font-size:14px}body{background:var(--color-background);color:var(--color-primary);display:grid;font:1em/1.5 Lato,sans-serif;gap:2em;grid-template-columns:[full-start] 1fr [main-start side-start] minmax(min-content,12em) [side-end content-start] minmax(min-content,36em) [main-end content-end] 1fr [full-end];grid-template-rows:auto [content] 0;margin-bottom:4em}body:before{content:"";grid-column:full;grid-row:content}ol,ul{padding-left:1em}:not(.icon-list,.tag-list)>li+li{margin-top:.4em}li::marker,.network{color:var(--color-secondary)}a{color:var(--color-accent);text-decoration:none}a:focus,a:hover{text-decoration:underline}h1,h2,h3,h5{font-weight:400}h1,h2,h3{line-height:1.2}h1{font-size:var(--scale5)}h2{color:var(--color-secondary);font-size:var(--scale4)}h3{color:var(--color-secondary);font-size:var(--scale3);grid-column:side;margin-bottom:1rem}h4{font-size:var(--scale2)}h5{font-size:var(--scale1)}h6{font-size:var(--scale0)}blockquote{border-left:.2em solid var(--color-dimmed);padding-left:1em}cite{color:var(--color-secondary);font-style:inherit}cite:before{content:"— "}svg{margin-right:.2em;vertical-align:text-bottom}.masthead{background:var(--color-dimmed);display:inherit;gap:inherit;grid-column:full;grid-template-columns:inherit;padding:4em 0;text-align:center}.masthead>*,section{grid-column:main}.masthead>img{border:4px solid;border-radius:50%;margin:0 auto;max-width:12em}article>*+*,blockquote>*+*,.timeline>div>*+*{margin-top:.6em}.meta{color:var(--color-secondary)}.stack{display:grid;gap:1.5em}.icon-list{display:flex;flex-wrap:wrap;gap:.4em 1em;justify-content:center;list-style:none;padding:0}.grid-list{display:grid;gap:1em}.tag-list{display:flex;flex-wrap:wrap;gap:.4em;list-style:none;padding:0}.tag-list>li{background:var(--color-dimmed);border-radius:.2em;padding:.2em .6em}.timeline>div{position:relative}.timeline>div:not(:last-child){padding-bottom:1rem}.timeline>div:not(:last-child):before{content:"";position:absolute;top:1rem;left:-15px;width:2px;height:100%;background:var(--color-secondary)}.timeline>div:not(:only-child):after{content:"";position:absolute;top:.6rem;left:-20px;width:8px;height:8px;background:var(--color-secondary);border:2px solid var(--color-background);border-radius:50%}@media print,(min-width: 48em){h3{text-align:right;margin-bottom:inherit}.masthead{text-align:inherit}.masthead>*,section{grid-column:content}.masthead img{grid-column:side;grid-row:span 2;max-width:100%}section{display:contents}.icon-list{flex-direction:column}.grid-list{grid-template-columns:repeat(auto-fit,minmax(calc((100% - 1em)/2),1fr))}}time+time-duration:before{content:"· "}@media print{time-duration{display:none}}
+        </style>
+        <script type="module">
+          const pluralize = (num, str) => `${num} ${num === 1 ? str : str.concat('s')}`
 
-		.contact-header {
-			font-weight:bold;
-		}
-		.label {
-			margin-top: 0;
-			margin-bottom: 1em;
-		}
-		.fa {
-			font-size:2em;
-		}
-		.left {
-			font-size: 1em;
-		}
-		.main {
-			margin 0 auto;
-			margin-left: 10%;
-			margin-right: 10%;
-			margin-bottom: 50px;
-		}
-		h2 {
-			font-size: 3.5em;
-		}
-		h3 {
-			font-size:2em;
-			margin-bottom:0;
-		}
-		h4 {
-			color: #4e4e4e;
-			font-size:1.5em;
-			margin-top:0;
-		}
-		.skills {
-			margin-bottom: 10px;
-		}
-		p {
-			font-family: 'Open Sans';
-			font-size: 1.5em;
-		}
-		li {
-			font-family: 'Open Sans';
-			font-size: 1.5em;
-		}
-		.keywords {
-			background-color: #333333;
-			color:#fff;
-			padding: 6px;
-			font-size: 1.2em;
-			margin-bottom: 5px;
-			display:inline-block;
-		}
-		blockquote {
-			margin: 2em 10px;
-  			padding: 1em 10px;
-			border-left: 10px solid #edf0f5;
-			font-family: 'Open Sans';
-			font-size: 1.5em;
-		}
-		blockquote .name {
-			font-weight:bold;
-			font-family: "Montserrat";
-		}
-		.responsive-show {
-			display:none;
-		}
-		@media (max-width: 1000px) {
-  			.header {
-    			font-size: 1.66em;
-  			}
-  			h2 {
-  				font-size: 3em;
-  			}
-		}
-		@media (max-width: 500px) {
-			p {
-				font-size:1.2em;
-			}
-			li {
-				font-size:1.2em;
-			}
-			blockquote {
-				font-size:1.2em;
-			}
-			h2 {
-				font-size:2.3em;
-			}
-			.responsive-hidden {
-				display:none;
-				visibility: hidden;
-			}
-			.responsive-show {
-				display:inline;
-				visibility: visible;
-			}
-		}
-    </style>
-	<script src= "//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
-  </head>
-  <body>
-	<div class= "header">
-		<h1>GUILLAUME KUC</h1>
-		<h3 class= "label">TECHNICAL ARTIST</h3>
-		<div class= "contact-header">
-				Grenoble, Isère, FR<br>
-				
-			</div>
-		<div id= "contact">
-			<br>
-			<div class= "contact-header">
-				EMAIL <span class= "responsive-hidden">&bull;</span> <span class= "responsive-show"><br></span><a href= "mailto:guillaume@guillaumekuc.com" target= "_blank">guillaume@guillaumekuc.com</a> <span class= "responsive-show"><br><br></span>
-			</div>
-		</div>
-		<br>
-		<div id= "profiles">
-			<div class= "contact-header">PROFILES</div><br>
-			<p class= "profile"><a href= "https:&#x2F;&#x2F;@guillaumekuc.bsky.social" target= "_blank" class= "profile">Bluesky</a></p>
-			<p class= "profile"><a href= "https:&#x2F;&#x2F;github.com&#x2F;guillaumekuc" target= "_blank" class= "profile">Github</a></p>
-			<p class= "profile"><a href= "https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;guillaumekuc&#x2F;" target= "_blank" class= "profile">LinkedIn</a></p>
-			<p class= "profile"><a href= "https:&#x2F;&#x2F;www.artstation.com&#x2F;guillaumekuc" target= "_blank" class= "profile">ArtStation</a></p>
-		</div>		
-	</div>
-	<div class= "main">
-		<div id= "about">
-			<h2><i class= "fa fa-user left"></i> ABOUT</h2>
-			<p>
-				I&#39;m a technical artist with proficiency spanning 2D &amp; 3D digital arts, music composition, and scripting &amp; tools development. With formal education in 3D Animation from École Estienne in Paris, I&#39;ve cultivated a multidisciplinary identity that reconciles my artistic aspirations with my analytical orientation. My experience includes creating interactive 3D maps, developing workflow automation tools, painting digital illustrations, and publishing educational content. Lately, I&#39;ve focused on deepening my technical art skills in service of the French creative industries which I care for.
-			</p>
-		</div>
-		<div id= "work">
-			<h2><i class= "fa fa-suitcase left"></i> WORK EXPERIENCE</h2>
-				<div class= "job">
-					<h3>2D&#x2F;3D Production Designer &amp; Tools Developer, Visioglobe</h3>
-					<h4>July 2022 - Present</h4>
-					<p>Created interactive 3D maps for clients in mall, office, hospital, and university sectors while developing automation tools to improve workflow efficiency.</p>
-					<h4>HIGHLIGHTS</h4>
-					<ul>
-						<li>Created high-quality interactive 3D indoor maps for enterprise clients (Orange, Loréal, SG, Lombard Odier, Engie, Unibail, Ikea, etc...)</li>
-						<li>Developed and integrated workflow automation plugins that improved team efficiency</li>
-						<li>Utilized VisioMapEditor, Blender, AutoCAD, Illustrator, Figma, Vue.js, SVG, Paper.js</li>
-					</ul>
-				</div>
-				<div class= "job">
-					<h3>Illustrator, Self-Employed</h3>
-					<h4>2017 - 2022</h4>
-					<p>Created architectural, landscape and cover illustrations for tabletop RPG companies and novelists (intermittent).</p>
-					<h4>HIGHLIGHTS</h4>
-					<ul>
-						<li>Worked with clients including La Plume de Cyrano and Orygins</li>
-						<li>Created colored illustrations for projects like Tylestel and Aegyptius</li>
-						<li>Received positive feedback for composition, color choices, and atmospheric quality</li>
-					</ul>
-				</div>
-				<div class= "job">
-					<h3>Various Retail Positions, Various Retailers</h3>
-					<h4>2018 - 2021</h4>
-					<p>Worked at multiple supermarket chains across France while maintaining self-directed learning projects.</p>
-					<h4>HIGHLIGHTS</h4>
-					<ul>
-						<li>Managed cashier, shelving, accounting tasks, and store opening&#x2F;closing responsibilities</li>
-						<li>Used free time blocks for portfolio development and personal projects</li>
-						<li>Maintained positive cash flow while building skills in digital art, 3D animation, and music theory</li>
-						<li>1.5 years of cumulated XP in Retail</li>
-					</ul>
-				</div>
-				<div class= "job">
-					<h3>3D Animation Intern, Nuage Carré</h3>
-					<h4>February 2017 - April 2017</h4>
-					<p>Tasked with developing of a 3D promotional short film for a ceramics brand for a freelance graphic designer</p>
-					<h4>HIGHLIGHTS</h4>
-					<ul>
-						<li>Produced pre-prod work, 3D models and animations for promotional content</li>
-						<li>Too short for intended scope</li>
-					</ul>
-				</div>
-				<div class= "job">
-					<h3>Graphic Design Intern, Kafard Films</h3>
-					<h4>June 2015 - August 2015</h4>
-					<p>Created pre-production design materials for film projects in a small production company, supporting the pitching process for potential funding.</p>
-					<h4>HIGHLIGHTS</h4>
-					<ul>
-						<li>Designed promotional booklets, and pitch materials for film project funding presentations</li>
-						<li>Designed logos and visual identity elements for production projects</li>
-						<li>Collaborated with multiple stakeholders to reach consensual design decisions</li>
-					</ul>
-				</div>
-		</div>
-		<div id= "skills">
-			<h2><i class= "fa fa-tasks left"></i> SKILLS</h2>
-				<h3 class= "skills">3D Graphics &amp; Animation</h3>
-				<span class= "keywords">Modeling</span>
-				<span class= "keywords">Procedural Modeling [WIP]</span>
-				<span class= "keywords">UV Mapping &amp; Texturing</span>
-				<span class= "keywords">Rigging</span>
-				<span class= "keywords">Character Animation</span>
-				<span class= "keywords">Lighting &amp; Rendering</span>
-				<span class= "keywords">Blender</span>
-				<span class= "keywords">Maya</span>
-				<span class= "keywords">3DS Max</span>
-				<span class= "keywords">Mari</span>
-				<span class= "keywords">Substance Painter</span>
-				<h3 class= "skills">2D Visual Arts</h3>
-				<span class= "keywords">Digital Painting</span>
-				<span class= "keywords">Light &amp; Color Theory</span>
-				<span class= "keywords">Perspective</span>
-				<span class= "keywords">Photoshop</span>
-				<span class= "keywords">Illustrator</span>
-				<h3 class= "skills">Scripting &amp; Development</h3>
-				<span class= "keywords">Web development</span>
-				<span class= "keywords">Plugin development</span>
-				<span class= "keywords">Javascript</span>
-				<span class= "keywords">HTML&#x2F;CSS</span>
-				<span class= "keywords">UI&#x2F;UX Design</span>
-				<span class= "keywords">API Integration</span>
-				<span class= "keywords">Adobe SDK</span>
-				<span class= "keywords">Git</span>
-				<span class= "keywords">Docker</span>
-				<h3 class= "skills">Music Theory &amp; Composition</h3>
-				<span class= "keywords">Chord Relationships</span>
-				<span class= "keywords">Counterpoint &amp; Voice leading</span>
-				<span class= "keywords">Modal Theory</span>
-				<span class= "keywords">Metric Modulation</span>
-				<span class= "keywords">All-fourths Guitar</span>
-				<span class= "keywords">Reaper</span>
-				<span class= "keywords">Guitar Pro</span>
-		</div><br>
-		<div id= "education">
-			<h2><i class= "fa fa-graduation-cap left"></i> EDUCATION</h2>
-				<h3>FCND (Non-Degree Supplementary Training), Digital Art &amp; 3D Animation - École Estienne</h3>
-				<h4>September 2016 - July 2017</h4>
-				<h4>COURSES</h4>
-				<ul>
-					<li>Professional Internship w&#x2F; Nuage Carré</li>
-					<li>Self-Directed Study in Digital Painting</li>
-					<li>Portfolio Development</li>
-				</ul>
-				<h3>DMA, 3D Animation - École Estienne</h3>
-				<h4>September 2014 - July 2016</h4>
-				<h4>COURSES</h4>
-				<ul>
-					<li>Concept Development</li>
-					<li>Storyboarding</li>
-					<li>3D Modeling &amp; Texturing</li>
-					<li>Character Rigging</li>
-					<li>Character Animation</li>
-					<li>Lighting &amp; Rendering</li>
-					<li>Editing &amp; Sound Design</li>
-				</ul>
-				<h3>MANAA, Applied Arts - École Estienne</h3>
-				<h4>September 2013 - July 2014</h4>
-				<h4>COURSES</h4>
-				<ul>
-					<li>Drawing &amp; Sketching</li>
-					<li>Volume &amp; Space</li>
-					<li>Graphic Design Fundamentals</li>
-					<li>Typography Basics</li>
-					<li>Art History</li>
-				</ul>
-				<h3>BAC S, Scientific Baccalaureate - Lycée Camille Vernet</h3>
-				<h4>September 2008 - July 2013</h4>
-				<h4>COURSES</h4>
-				<ul>
-					<li>Mathematics</li>
-					<li>Philosophy</li>
-					<li>Physics &amp; Chemistry</li>
-					<li>Biology</li>
-					<li>Visual Arts</li>
-					<li>Music</li>
-					<li>Latin &amp; Greek (Initial Years)</li>
-				</ul>
-		</div>
-		<div id= "publications">
-			<h2><i class= "fa fa-book left"></i> PUBLICATIONS</h2>
-				<h3>Gridz - Perspective Plugin for Photoshop</h3>
-				<h4>  2021</h4>
-				<p>Developed a Photoshop plugin that helps artists create accurate perspective grids with customizable orientation in 3D space. Built with JavaScript, HTML&#x2F;CSS, and Photoshop Extension SDK. Implemented trigonometric transformations for perspective calculation and created an intuitive UI for manipulating 3D space parameters.<br><a href= "" target= "_blank"></a></p>
-				<h3>All-fourths Tuning, Improvisation - E-book</h3>
-				<h4>  2018</h4>
-				<p>Self-published educational e-book teaching guitarists how to use all-fourths tuning for enhanced improvisation. Created comprehensive diagrams explaining music theory concepts and developed a systematic approach to learning modes and scales in all-fourths tuning. Achieved 4.1 star average rating.<br><a href= "" target= "_blank"></a></p>
-				<h3>The Encyclopaedist - Animated Short Film</h3>
-				<h4>  2016</h4>
-				<p>Created a 3-minute animated short film as diploma project at École Estienne. Handled all production stages including storyboarding, modeling, animation, lighting, and rendering. Collaborated with composer Pierre Fontaine for musical score. Selected for screening at multiple international film festivals.<br><a href= "" target= "_blank"></a></p>
-		</div>
-		<div id= "interests">
-			<h2><i class= "fa fa-star left"></i> INTERESTS</h2>
-				<h3 class= "skills">Philosophy</h3>
-				<span class= "keywords">Pragmatic Idealism</span>
-				<span class= "keywords">Wu-wei</span>
-				<span class= "keywords">Dharma</span>
-				<span class= "keywords">Karma</span>
-				<h3 class= "skills">Physical Activity</h3>
-				<span class= "keywords">Cycling</span>
-				<span class= "keywords">Running</span>
-				<span class= "keywords">Intermittent Fasting</span>
-				<span class= "keywords">Nutrition</span>
-		</div>
-		<div id= "languages">
-			<h2><i class= "fa fa-language left"></i> LANGUAGES</h2>
-				<h3>French</h3>
-				<h4>Fluency: Native speaker</h4>
-				<h3>English</h3>
-				<h4>Fluency: Full professional Proficiency</h4>
-		</div>
+class TimeDuration extends HTMLElement {
+  connectedCallback() {
+    const dates = this.getAttribute('dates')
+    if (!dates) return this.remove()
 
-	</div>
-  </body>
-</html>
+    const duration = dates.split('|').reduce((acc, _date, i, dates) => {
+      if (i % 2) return acc
+      const [startDate, endDate] = dates.slice(i)
+      return acc + (startDate ? +new Date(endDate || Date.now()) - +new Date(startDate) : 0)
+    }, 0)
+
+    const diffDate = new Date(duration)
+    const years = diffDate.getFullYear() - 1970
+    const months = diffDate.getMonth()
+    const days = diffDate.getDate() - 1
+
+    const segments = [
+      years && pluralize(years, 'yr'),
+      months && pluralize(months, 'mo'),
+      days && !years && !months && pluralize(days, 'day'),
+    ].filter(Boolean)
+    if (!segments.length) return
+
+    this.textContent = segments.join(' ')
+  }
+}
+
+customElements.define('time-duration', TimeDuration)
+
+        </script>
+      </head>
+      <body>
+        
+    <header class="masthead">
+      
+      <div><h1>Guillaume Kuc</h1> <h2>2D/3D Production · Creative Tools · Music</h2></div>
+      <article><p>Versatile profile spanning 2D &amp; 3D digital arts, music composition, and software/tools development. Formally trained in 3D Animation from École Estienne, Paris. Professional experience includes delivering complex interactive 3D maps, developing creative tools, extensions and workflow automations, crafting 2D digital illustrations and concept arts, and publishing music educational material. Lately, I've been focusing on deepening my technical arts skills in service of the French creative industries.</p></article>
+      <ul class="icon-list">
+        
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-map-pin"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg> Grenoble, France
+          </li>
+        
+        
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            <a href="mailto:guillaume@guillaumekuc.com">guillaume@guillaumekuc.com</a>
+          </li>
+        
+        
+        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg> <a href="https://guillaumekuc.art">guillaumekuc.art</a></li>
+        
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg> <a href="https://github.com/guillaumekuc">guillaumekuc</a>
+              <span class="network">(Github)</span>
+            </li>
+          
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg> <a href="https://www.linkedin.com/in/guillaumekuc/">guillaumekuc</a>
+              <span class="network">(LinkedIn)</span>
+            </li>
+          
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg> <a href="https://www.artstation.com/guillaumekuc">guillaumekuc</a>
+              <span class="network">(ArtStation)</span>
+            </li>
+          
+      </ul>
+    </header>
+   
+      <section id="work">
+        <h3>Work</h3>
+        <div class="stack">
+          
+              <article>
+                <header>
+                  <h4>2D/3D Production Designer & Tools Developer</h4>
+                  <div class="meta">
+                    
+                          <div>
+                            <strong><a href="https://visioglobe.com/">visioglobe.com</a></strong>
+                          </div>
+                          <div><time datetime="2022-07-25">Jul 2022</time> – <time datetime="2025-12-01">Dec 2025</time> <time-duration dates="2022-07-25|2025-12-01"></time-duration></div>
+                          
+                        
+                  </div>
+                </header>
+                <div class="timeline">
+                  
+                      <div>
+                        
+                        <p>Created interactive 3D maps for clients in mall, office, hospital, and university sectors while developing productivity tools to improve the production team's workflow efficiency.</p>
+                        
+                          <ul>
+                            <li><p>Delivered high-quality interactive 3D indoor maps for enterprise clients (Orange, Loréal, SG, Lombard Odier, Engie, Unibail, Ikea, etc...)</p></li><li><p>Quality control, specs-driven process robustness, efficiency, parametric time estimates</p></li><li><p>SVG-based geometry problem-solving</p></li><li><p>Developed and integrated VisioMapEditor extensions, validator tools, and workflow automations that improved my and my team's efficiency</p></li><li><p>Navigated a large undocumented codebase</p></li><li><p>Tools: VisioMapEditor, Blender, AutoCAD, Illustrator, Figma, Vue.js, SVG &amp; Paper.js, Node.js, GitLab, VirtualBox &amp; Linux, Docker, various project management tools</p></li>
+                          </ul>
+                        
+                      </div>
+                    
+                </div>
+              </article>
+            
+              <article>
+                <header>
+                  <h4>Freelance Digital Illustrator</h4>
+                  <div class="meta">
+                    
+                          <div>
+                            <strong><a href="https://guillaumekuc.art">guillaumekuc.art</a></strong>
+                          </div>
+                          <div><time datetime="2017">Jan 2017</time> – <time datetime="2022">Jan 2022</time> <time-duration dates="2017|2022"></time-duration></div>
+                          
+                        
+                  </div>
+                </header>
+                <div class="timeline">
+                  
+                      <div>
+                        
+                        <p>Digital-painted detailed architectural, landscape and cover illustrations for tabletop RPG companies and novelists (intermittent).</p>
+                        
+                          <ul>
+                            <li><p>Worked with clients including La Plume de Cyrano and Orygins</p></li><li><p>Delivered full-page colored illustrations in series for projects like Tylestel and Aegyptius</p></li><li><p>Received positive feedback for composition, color choices, and atmospheric quality</p></li>
+                          </ul>
+                        
+                      </div>
+                    
+                </div>
+              </article>
+            
+              <article>
+                <header>
+                  <h4>Multiple Retail Roles</h4>
+                  <div class="meta">
+                    
+                          <div>
+                            <strong></strong>
+                          </div>
+                          <div><time datetime="2018">Jan 2018</time> – <time datetime="2021">Jan 2021</time> <time-duration dates="2018|2021"></time-duration></div>
+                          
+                        
+                  </div>
+                </header>
+                <div class="timeline">
+                  
+                      <div>
+                        
+                        <p>Worked at multiple supermarket chains across France while maintaining self-directed learning projects.</p>
+                        
+                          <ul>
+                            <li><p>Managed cashier, shelving, accounting tasks, and store opening/closing responsibilities</p></li><li><p>Maintained positive cash flow while building skills in 2D digital art, 3D animation, music theory &amp; web development</p></li><li><p>1.5+ years of cumulated XP in retail</p></li>
+                          </ul>
+                        
+                      </div>
+                    
+                </div>
+              </article>
+            
+              <article>
+                <header>
+                  <h4>3D Animation Intern</h4>
+                  <div class="meta">
+                    
+                          <div>
+                            <strong><a href="http://nuagecarre.com/">nuagecarre.com</a></strong>
+                          </div>
+                          <div><time datetime="2017-02">Feb 2017</time> – <time datetime="2017-04">Apr 2017</time> <time-duration dates="2017-02|2017-04"></time-duration></div>
+                          
+                        
+                  </div>
+                </header>
+                <div class="timeline">
+                  
+                      <div>
+                        
+                        <p>Tasked with developing a 3D promotional short film for an independant graphic designer without 3D competency</p>
+                        
+                          <ul>
+                            <li><p>Produced pre-prod work, modeled and rigged 3D assets, produced 2D background art, and animated shots as promotional content for a ceramics brand</p></li>
+                          </ul>
+                        
+                      </div>
+                    
+                </div>
+              </article>
+            
+              <article>
+                <header>
+                  <h4>Graphic Design Intern</h4>
+                  <div class="meta">
+                    
+                          <div>
+                            <strong><a href="https://kafardfilms.fr/">kafardfilms.fr</a></strong>
+                          </div>
+                          <div><time datetime="2015-06">Jun 2015</time> – <time datetime="2015-08">Aug 2015</time> <time-duration dates="2015-06|2015-08"></time-duration></div>
+                          
+                        
+                  </div>
+                </header>
+                <div class="timeline">
+                  
+                      <div>
+                        
+                        <p>Created early visual-design material for a small movie production company in support of the pitching effort for future funding.</p>
+                        
+                          <ul>
+                            <li><p>Designed promotional booklets, and pitch material for film project funding presentations</p></li><li><p>Designed logos and visual identity elements for the company</p></li><li><p>Collaborated with multiple stakeholders to reach consensual design decisions</p></li>
+                          </ul>
+                        
+                      </div>
+                    
+                </div>
+              </article>
+            
+        </div>
+      </section>
+      
+      <section id="education">
+        <h3>Education</h3>
+        <div class="stack">
+          
+              <article>
+                <header>
+                  <h4><a href="https://www.ecole-estienne.paris/">École Estienne</a></h4>
+                  <div class="meta">
+                    <div>FCND (Non-Degree Supplementary Training) in <strong>2D Digital Art & 3D Animation</strong></div>
+                    <div><time datetime="2016-09">Sep 2016</time> – <time datetime="2017-07">Jul 2017</time> <time-duration dates="2016-09|2017-07"></time-duration></div>
+                    
+                  </div>
+                </header>
+                
+                  <h5>Courses</h5>
+                  <ul>
+                    <li><p>Professional Internship w/ Nuage Carré</p></li><li><p>Self-Directed Study in 2D Digital Art &amp; Painting</p></li><li><p>Portfolio Development</p></li>
+                  </ul>
+                
+              </article>
+            
+              <article>
+                <header>
+                  <h4><a href="https://www.ecole-estienne.paris/">École Estienne</a></h4>
+                  <div class="meta">
+                    <div>DMA in <strong>3D Animation</strong></div>
+                    <div><time datetime="2014-09">Sep 2014</time> – <time datetime="2016-07">Jul 2016</time> <time-duration dates="2014-09|2016-07"></time-duration></div>
+                    <div>Grade: Mention Très Bien</div>
+                  </div>
+                </header>
+                
+                  <h5>Courses</h5>
+                  <ul>
+                    <li><p>Concept Development</p></li><li><p>Storyboarding</p></li><li><p>3D Modeling</p></li><li><p>3D Texturing</p></li><li><p>Character Rigging</p></li><li><p>Character Animation</p></li><li><p>Lighting &amp; Rendering</p></li><li><p>Editing &amp; Sound Design</p></li><li><p>2D animation</p></li>
+                  </ul>
+                
+              </article>
+            
+              <article>
+                <header>
+                  <h4><a href="https://www.ecole-estienne.paris/">École Estienne</a></h4>
+                  <div class="meta">
+                    <div>MANAA in <strong>Applied Arts</strong></div>
+                    <div><time datetime="2013-09">Sep 2013</time> – <time datetime="2014-07">Jul 2014</time> <time-duration dates="2013-09|2014-07"></time-duration></div>
+                    
+                  </div>
+                </header>
+                
+                  <h5>Courses</h5>
+                  <ul>
+                    <li><p>Sketching, Drawing &amp; Painting</p></li><li><p>Volume &amp; Space</p></li><li><p>Graphic Design</p></li><li><p>Typography</p></li><li><p>Art History</p></li>
+                  </ul>
+                
+              </article>
+            
+              <article>
+                <header>
+                  <h4>Lycée Camille Vernet</h4>
+                  <div class="meta">
+                    <div>BAC S in <strong>Scientific Baccalaureate</strong></div>
+                    <div><time datetime="2009-09">Sep 2009</time> – <time datetime="2013-07">Jul 2013</time> <time-duration dates="2009-09|2013-07"></time-duration></div>
+                    <div>Grade: Mention Très Bien</div>
+                  </div>
+                </header>
+                
+                  <h5>Courses</h5>
+                  <ul>
+                    <li><p>Mathematics</p></li><li><p>Philosophy</p></li><li><p>Physics &amp; Chemistry</p></li><li><p>Biology</p></li><li><p>Visual Arts</p></li><li><p>Music</p></li><li><p>Latin &amp; Greek (discontinued)</p></li>
+                  </ul>
+                
+              </article>
+            
+        </div>
+      </section>
+    
+        
+      <section id="projects">
+        <h3>Projects</h3>
+        <div class="stack">
+          
+              <article>
+                <header>
+                  <h4><a href="https://guillaumekuc.github.io/blog">Technical Art Upskilling</a></h4>
+                  <div class="meta">
+                    <div>
+                      
+                      
+                    </div>
+                    <div><time datetime="2026">Jan 2026</time> – <time datetime="2027">Jan 2027</time> <time-duration dates="2026|2027"></time-duration></div>
+                    
+                  </div>
+                </header>
+                <p>Self-directed gap year focused on leveling-up technical art skills and developping personal projects.</p>
+                
+                  <ul>
+                    <li><p>Procedural modeling in Houdini (SOPs, Geometry model, Wrangles, HDAs)</p></li><li><p>Game engines: Unity &amp; Unreal Engine</p></li><li><p>Unity-based VR project exploration (Quest 3S)</p></li><li><p>Game and 3D specific scripting languages (C#, Python)</p></li><li><p>Custom tools development for Blender &amp; Reaper</p></li><li><p>Game conception &amp; development aimed at institutional fundraising (CNC)</p></li>
+                  </ul>
+                
+                
+              </article>
+            
+        </div>
+      </section>
+      
+        
+      <section id="publications">
+        <h3>Publications</h3>
+        <div class="stack">
+          
+              <article>
+                <header>
+                  <h4><a href="https://guillaumekuc.art">Portfolio website</a></h4>
+                  <div class="meta">
+                    <div>Published by <strong>Open-source, Github</strong></div>
+                    <time datetime="2026">Jan 2026</time>
+                  </div>
+                </header>
+                <p>Latest iteration of the website, first started around 2016. Built with Svelte and Javascript. Splashscreen, full-page carousel galleries, multi-modal integration, persistent music player, filtering, keyboard shortcut system and UX focus, config-driven architecture. Showcases art across 2D, 3D and music, with links to some published tools, and is paired with a companion blog.</p>
+              </article>
+            
+              <article>
+                <header>
+                  <h4><a href="https://github.com/guillaumekuc/chordex">Chordex - Chord Relationships Catalog</a></h4>
+                  <div class="meta">
+                    <div>Published by <strong>Open-source, Github</strong></div>
+                    <time datetime="2026">Jan 2026</time>
+                  </div>
+                </header>
+                <p>Developed a standalone web-app, built with Vue.js and Pico.css, that lets musicians browse a catalog of all possible chord-to-chord transitions in the tertian harmonic space (192 possible moves given 4 chord qualities : major, minor, diminished &amp; augmented) — a combinatorial, music theory-informed taxonomy tool. It also contains a chord progression generator that uses user-selected chord transitions as lego blocks to create fully original yet emotionally on target progressions. Features audio playback, keyboard visualisation, and affect-based tags.</p>
+              </article>
+            
+              <article>
+                <header>
+                  <h4><a href="https://guillaumekuc.gumroad.com/l/gridz">Gridz - Perspective Plugin for Photoshop</a></h4>
+                  <div class="meta">
+                    <div>Published by <strong>Gumroad</strong></div>
+                    <time datetime="2021">Jan 2021</time>
+                  </div>
+                </header>
+                <p>Developed a Photoshop plugin that solves a common gap in perspective drawing: a static grid only matches objects sharing its orientation, so Gridz lets artists rotate the whole grid in 3D space instead. Built with JavaScript, HTML/CSS, and Photoshop Extension SDK. Implemented bottom-up trigonometric transformations for accurate perspective calculation and created an intuitive UI for manipulating 3D space parameters. Published commercially on Gumroad.</p>
+              </article>
+            
+              <article>
+                <header>
+                  <h4><a href="https://www.amazon.com/All-fourths-tuning-Improvisation-Guillaume-ebook/dp/B07F89CW6V">All-fourths Tuning, Improvisation - E-book</a></h4>
+                  <div class="meta">
+                    <div>Published by <strong>Amazon Kindle</strong></div>
+                    <time datetime="2018">Jan 2018</time>
+                  </div>
+                </header>
+                <p>Self-published e-book teaching guitarists to use all-fourths tuning for improvisation. Created comprehensive diagrams explaining music theory concepts and developed a systematic approach to learning modes and scales in all-fourths tuning. Achieved 4.1 star average rating.</p>
+              </article>
+            
+              <article>
+                <header>
+                  <h4><a href="https://www.youtube.com/watch?v=l6V4EZuUAws">The Encyclopaedist - Animated Short Film</a></h4>
+                  <div class="meta">
+                    <div>Published by <strong>Miyu Distribution (formerly Sève Films)</strong></div>
+                    <time datetime="2016">Jan 2016</time>
+                  </div>
+                </header>
+                <p>Created a 3-minute animated short film as diploma project at École Estienne. Handled all production stages including storyboarding, modeling, rigging, animation, lighting, rendering and editing. Collaborated with composer Pierre Fontaine who wrote the musical score. Selected for screening at multiple international film festivals.</p>
+              </article>
+            
+        </div>
+      </section>
+     
+      <section id="skills">
+        <h3>Skills</h3>
+        <div class="grid-list">
+          
+              <div>
+                <h4>3D Graphics & Animation</h4>
+                
+                  <ul class="tag-list">
+                    <li>Modeling</li><li>Procedural Modeling</li><li>UV Mapping & Texturing</li><li>Rigging</li><li>Character Animation</li><li>Lighting & Rendering</li><li>Blender</li><li>Maya</li><li>3DS Max</li><li>Substance Painter</li><li>Real-time economy constraints</li>
+                  </ul>
+                
+              </div>
+            
+              <div>
+                <h4>2D Visual Arts</h4>
+                
+                  <ul class="tag-list">
+                    <li>Digital Painting</li><li>Light & Color Theory</li><li>Perspective</li><li>Photoshop</li><li>Illustrator</li><li>Affinity suite</li><li>Figma</li>
+                  </ul>
+                
+              </div>
+            
+              <div>
+                <h4>Programming & Development</h4>
+                
+                  <ul class="tag-list">
+                    <li>Web development</li><li>Plugin development</li><li>Javascript</li><li>Vue.js</li><li>Svelte</li><li>UI/UX Design</li><li>API Integration</li><li>Adobe SDK</li><li>Geometry problems</li><li>Procedural 3D</li><li>Basic Dev Ops</li><li>Unity & Unreal Engine [WIP]</li>
+                  </ul>
+                
+              </div>
+            
+              <div>
+                <h4>Music Theory & Composition</h4>
+                
+                  <ul class="tag-list">
+                    <li>Chord Relationships & Harmony</li><li>Counterpoint & Voice leading</li><li>Modal Theory</li><li>Metric Modulation</li><li>Isomorphic instrument layouts</li><li>Reaper DAW</li><li>Guitar Pro</li>
+                  </ul>
+                
+              </div>
+            
+              <div>
+                <h4>AI tools fluency</h4>
+                
+                  <ul class="tag-list">
+                    <li>Cursor</li><li>Claude Code</li><li>Perplexity AI</li><li>OpenClaw</li><li>+ various peeks across the landscape</li>
+                  </ul>
+                
+              </div>
+            
+        </div>
+      </section>
+     
+      <section id="languages">
+        <h3>Languages</h3>
+        <div class="grid-list">
+          <div><h4>French</h4> Native speaker</div><div><h4>English</h4> Full professional Proficiency</div>
+        </div>
+      </section>
+    
+        
+      <section id="interests">
+        <h3>Interests</h3>
+        <div class="grid-list">
+          
+              <div>
+                <h4>Philosophy</h4>
+                
+                  <ul class="tag-list">
+                    <li>Pragmatic Idealism</li><li>Wu-wei</li><li>Dharma</li><li>Karma</li>
+                  </ul>
+                
+              </div>
+            
+              <div>
+                <h4>Physical Activity</h4>
+                
+                  <ul class="tag-list">
+                    <li>Cycling</li><li>Running</li><li>Nutrition</li>
+                  </ul>
+                
+              </div>
+            
+              <div>
+                <h4>Public libraries !</h4>
+                
+              </div>
+            
+        </div>
+      </section>
+     
+      </body>
+    </html>

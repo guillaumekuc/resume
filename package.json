@@ -1,9 +1,11 @@
 {
   "dependencies": {
-    "jsonresume-theme-classy": "^1.0.9"
+    "jsonresume-theme-local": "file:theme",
+    "puppeteer": "^25.11.0",
+    "resumed": "^7.0.0"
   },
   "scripts": {
-    "build": "resume export --theme classy-alt docs/index.html",
-    "dev": "resume serve --theme classy-alt"
+    "build": "resumed render resume.json --theme jsonresume-theme-local --output docs/index.html",
+    "pdf": "resumed export resume.json --theme jsonresume-theme-local --output resume.pdf"
   }
 }

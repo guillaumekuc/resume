@@ -1,0 +1,17 @@
+{
+  "name": "jsonresume-theme-local",
+  "version": "0.26.1-local.1",
+  "description": "Local fork of jsonresume-theme-even 0.26.1 that also renders education `score` as a grade",
+  "license": "MIT",
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "dependencies": {
+    "@rbardini/html": "^1.0.0",
+    "feather-icons": "^4.28.0",
+    "micromark": "^2.11.0",
+    "striptags": "^3.2.0"
+  }
+}
